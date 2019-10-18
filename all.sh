@@ -3,7 +3,7 @@
 
 #helper tools
 #gdown
-pip install gdown
+pip install --user gdown
 
 #gdrive
 wget https://github.com/gdrive-org/gdrive/releases/download/2.1.0/gdrive-linux-x64
@@ -12,13 +12,13 @@ chmod +x gdrive
 
 #install dataset-tools
 git clone https://github.com/dvschultz/dataset-tools
-pip install -r dataset-tools/requirements.txt
+pip install -r --user dataset-tools/requirements.txt
 
 #style transfers
 git clone https://github.com/dvschultz/neural-style-tf.git
 cd neural-style-tf
 wget http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
-pip install -r requirements.txt
+pip install -r --user requirements.txt
 cd ../
 
 #cycleGAN
@@ -29,7 +29,7 @@ cd ../
 
 #pix2pixHD
 git clone -b video https://github.com/jctestud/pix2pixHD.git
-pip install torch torchvision
+pip install --user torch torchvision
 pip install --user dominate tqdm
 sudo apt install ffmpeg
 
