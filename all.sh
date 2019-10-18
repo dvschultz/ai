@@ -12,13 +12,13 @@ chmod +x gdrive
 
 #install dataset-tools
 git clone https://github.com/dvschultz/dataset-tools
-pip install -r --user dataset-tools/requirements.txt
+pip install --user -r dataset-tools/requirements.txt
 
 #style transfers
 git clone https://github.com/dvschultz/neural-style-tf.git
 cd neural-style-tf
 wget http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
-pip install -r --user requirements.txt
+pip install --user -r requirements.txt
 cd ../
 
 #cycleGAN
@@ -36,7 +36,7 @@ sudo apt install ffmpeg
 #stylegan
 git clone https://github.com/dvschultz/stylegan
 cd stylegan
-pip install --user -r  requirements.txt
+pip install --user -r requirements.txt
 mkdir pkl
 cd pkl
 gdown --id 1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF --output inception_v3_features.pkl #inception: https://drive.google.com/open?id=1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF
