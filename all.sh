@@ -1,6 +1,8 @@
 #!/bin/bash
 # all.sh
 
+pip install --upgrade pip
+
 #helper tools
 #gdown
 pip install --user gdown
