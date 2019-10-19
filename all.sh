@@ -21,6 +21,8 @@ git clone https://github.com/dvschultz/neural-style-tf.git
 cd neural-style-tf
 wget http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
 pip install --user -r requirements.txt
+#run test
+bash stylize_image.sh ./image_input/lion.jpg ./styles/kandinsky.jpg
 cd ../
 
 #cycleGAN
@@ -49,4 +51,7 @@ cd pretrained_models
 gdown --id 1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ --output karras2019stylegan-ffhq-1024x1024.pkl
 cd ../
 mkdir datasets
+
+#run test
+python pretrained_example.py
 cd ../
