@@ -1,7 +1,8 @@
 #!/bin/bash
 # all.sh
 
-pip install --upgrade pip
+sudo apt install ffmpeg #move this to the top so nothing gets locked
+pip install --user --upgrade pip
 
 #helper tools
 #gdown
@@ -21,8 +22,6 @@ git clone https://github.com/dvschultz/neural-style-tf.git
 cd neural-style-tf
 wget http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
 pip install --user -r requirements.txt
-#run test
-bash stylize_image.sh ./image_input/lion.jpg ./styles/kandinsky.jpg
 cd ../
 
 #cycleGAN
@@ -35,7 +34,6 @@ cd ../
 git clone -b video https://github.com/jctestud/pix2pixHD.git
 pip install --user torch torchvision
 pip install --user dominate tqdm
-sudo apt install ffmpeg
 
 #stylegan
 git clone https://github.com/dvschultz/stylegan
@@ -54,4 +52,9 @@ mkdir datasets
 
 #run test
 python pretrained_example.py
+cd ../
+
+cd neural-style-tf
+#run test
+bash stylize_image.sh ./image_input/lion.jpg ./styles/kandinsky.jpg
 cd ../
