@@ -1,5 +1,5 @@
-# artificial-images-setup
-bash script to install Artifical Images materials
+# Artificial Images
+This repo contains a collection of tools and scripts used in my class Artificial Images, a class to teach machine learning to image makers.
 
 ```
 git clone https://github.com/dvschultz/artificial-images-setup
