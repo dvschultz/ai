@@ -4,7 +4,7 @@ This repo contains a collection of tools and scripts used in my class Artificial
 ```
 git clone https://github.com/dvschultz/ai
 bash ai/rc2.1.sh
-#OR
+#the below is based on a previous class, use it at your own peril
 bash ai/all.sh
 
 ```
