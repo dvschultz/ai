@@ -3,8 +3,8 @@ This repo contains a collection of tools and scripts used in my class Artificial
 
 ```
 git clone https://github.com/dvschultz/artificial-images-setup
-bash artificial-images-setup/rc2.1.sh
+bash ai/rc2.1.sh
 #OR
-bash artificial-images-setup/all.sh
+bash ai/all.sh
 
 ```
