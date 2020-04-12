@@ -14,7 +14,9 @@
 `conda activate stylegan`
 
 ## Install Repositories
+`wget https://raw.githubusercontent.com/dvschultz/ai/master/install-stylegan2.sh`
 
+`bash install-stylegan2.sh`
 
 ## Run StyleGAN2 test
 `cd dvschultz-stylegan2/stylegan2`
