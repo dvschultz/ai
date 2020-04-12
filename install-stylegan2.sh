@@ -19,7 +19,7 @@ mkdir pbaylies-stylegan2
 cd dvschultz-stylegan2
 git clone https://github.com/dvschultz/stylegan2
 cd stylegan2
-pip install -r dataset-tools/requirements.txt
+pip install -r requirements.txt
 mkdir pkl 
 mkdir results
 mkdir datasets
