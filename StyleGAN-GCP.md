@@ -4,7 +4,7 @@ These instructions are for my StyleGAN2 Deep Dive course. This will get you set 
 ## Set up GCP
 Please follow [this video](https://www.youtube.com/watch?v=CBPJh33T3yQ&list=PLWuCzxqIpJs-l4OygaHssyydjOu-AWoHv&index=2) to set up your GCP Virtual Machine.
 
-Once you have a VM set up, log in using SSH and follow the below instructions
+Once you have a VM set up, log in using SSH and follow the below instructions (a [video](https://youtu.be/59hpiFMjhpY) is also available)
 
 ## Set up Anaconda
 `wget -c https://repo.continuum.io/archive/Anaconda3-2020.02-Linux-x86_64.sh`
