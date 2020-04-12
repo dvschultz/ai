@@ -17,32 +17,48 @@ mkdir pbaylies-stylegan2
 cd dvschultz-stylegan2
 git clone https://github.com/dvschultz/stylegan2
 cd stylegan2
-mkdir pkl
+pip install -r dataset-tools/requirements.txt
+mkdir pkl 
+mkdir results
+mkdir datasets
 cd pkl
 gdown --id 1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF #inception: https://drive.google.com/open?id=1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF
 cd ../
-mkdir results
 mkdir results/00000-pretrained
 cd results/00000-pretrained
 gdown --id 1UlDmJVLLnBD9SnLSMXeiZRO6g-OMQCA_
 mv stylegan2-ffhq-config-f.pkl network-snapshot-10000.pkl
 cd ../../
-mkdir datasets
-cd ../../
+
 
 #install skyflynil
-cd mkdir skyflynil-stylegan2
+cd ../../skyflynil-stylegan2
 git clone https://github.com/skyflynil/stylegan2
 cd stylegan2
 mkdir pkl
+mkdir datasets
+mkdir results
 cd pkl
 gdown --id 1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF #inception: https://drive.google.com/open?id=1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF
 cd ../
-mkdir results
 mkdir results/00000-pretrained
 cd results/00000-pretrained
 gdown --id 1UlDmJVLLnBD9SnLSMXeiZRO6g-OMQCA_
 mv stylegan2-ffhq-config-f.pkl network-snapshot-10000.pkl
 cd ../../
+
+
+#install pbaylies
+cd ../../pbaylies-stylegan2
+git clone https://github.com/pbaylies/stylegan2
+cd stylegan2
+mkdir pkl
 mkdir datasets
+cd pkl
+gdown --id 1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF #inception: https://drive.google.com/open?id=1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF
+cd ../
 cd ../../
+
+
+
+
