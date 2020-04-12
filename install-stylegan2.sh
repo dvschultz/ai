@@ -6,7 +6,7 @@ pip install gdown
 
 #install dataset-tools
 git clone https://github.com/dvschultz/dataset-tools
-pip install --user -r dataset-tools/requirements.txt
+pip install --user -r ./dataset-tools/requirements.txt
 
 #set up stylegan2 repos
 mkdir dvschultz-stylegan2
