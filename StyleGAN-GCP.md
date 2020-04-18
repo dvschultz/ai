@@ -9,7 +9,7 @@ Once you have a VM set up, log in using SSH and follow the below instructions (a
 ## Set up Anaconda
 `wget -c https://repo.continuum.io/archive/Anaconda3-2020.02-Linux-x86_64.sh`
 
-`bash Anaconda3-version.num-Linux-x86_64.sh`
+`bash Anaconda3-2020.02-Linux-x86_64.sh`
 
 `rm Anaconda3-2020.02-Linux-x86_64.sh`
 
