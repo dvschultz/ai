@@ -39,6 +39,7 @@ git clone https://github.com/dvschultz/stylegan2
 cd stylegan2
 pip uninstall tensorflow
 pip install tensorflow==1.15
+pip install opensimplex
 mkdir pkl
 cd pkl
 gdown --id 1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF #inception: https://drive.google.com/open?id=1JLqXE5bGZnlu2BkbLPD5_ZxoO3Nz-AvF
